@@ -1910,11 +1910,11 @@ a {
 }
 
 .logo:hover {
-    color: #fff
+    color: #ffffff
 }
 
 .site-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 9;
     width: 100%
@@ -1922,7 +1922,9 @@ a {
 
 .site-nav {
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    background: linear-gradient(45deg, black, transparent);
+    overflow: hidden;
 }
 
 .site-nav .h1,
