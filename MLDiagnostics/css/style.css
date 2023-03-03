@@ -3044,6 +3044,7 @@ a {
     background-color:#fff;
     border-radius:5px;
     box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.4);
+    align-content: center;
   }
   
   .dropdown:hover .dropdown-options {
@@ -3055,7 +3056,7 @@ a {
     color: #000000;
     padding: 5px;
     text-decoration: none;
-    padding:20px 40px;
+    padding:5x 5px;
   }
   
   .dropdown-options a:hover {
