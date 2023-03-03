@@ -1911,7 +1911,6 @@ a {
 
 .logo:hover {
     color: #ffffff;
-    transform: scale(1.2);
 }
 
 .site-nav {
@@ -1966,7 +1965,7 @@ a {
 
 .site-nav .site-navigation .site-menu .has-children>a {
     position: relative;
-    padd$g-right: 20px
+    padding-right: 20px
 }
 
 .site-nav .site-navigation .site-menu .has-children>a:before {
