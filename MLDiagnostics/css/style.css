@@ -1114,8 +1114,8 @@ textarea.form-control {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem
+    padding-top: 0rem;
+    padding-bottom: 0rem
 }
 
 .navbar>.container {
@@ -1910,20 +1910,21 @@ a {
 }
 
 .logo:hover {
-    color: #ffffff
+    color: #ffffff;
+    transform: scale(1.2);
 }
 
 .site-nav {
     position: fixed;
-    top: 0;
+    top: -20px;
     z-index: 9;
     width: 100%
 }
 
 .site-nav {
-    padding-top: 20px;
+    padding-top: 21px;
     padding-bottom: 20px;
-    background: linear-gradient(45deg, black, transparent);
+    background: black;
     overflow: hidden;
 }
 
@@ -1951,7 +1952,8 @@ a {
 }
 
 .site-nav .site-navigation .site-menu>li>a:hover {
-    color: #fff
+    color: #fff;
+    transform: scale(1.2);
 }
 
 .site-nav .site-navigation .site-menu>li.active>a {
@@ -2275,7 +2277,8 @@ a {
     width: 28px;
     height: 32px;
     cursor: pointer;
-    position: relative
+    position: relative;
+    padding-left: 20px;
 }
 
 .burger.light:after,
@@ -2355,7 +2358,7 @@ a {
 .hero {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    height: 80vh;
+    height: 100vh;
     min-height: 600px;
     background: #e54646;
     position: relative
