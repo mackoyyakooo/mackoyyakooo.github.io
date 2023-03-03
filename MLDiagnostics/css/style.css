@@ -1966,7 +1966,7 @@ a {
 
 .site-nav .site-navigation .site-menu .has-children>a {
     position: relative;
-    padding-right: 20px
+    padd$g-right: 20px
 }
 
 .site-nav .site-navigation .site-menu .has-children>a:before {
@@ -2358,7 +2358,7 @@ a {
 .hero {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    height: 100vh;
+    height: auto;
     min-height: 600px;
     background: #e54646;
     position: relative
