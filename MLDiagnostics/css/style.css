@@ -1923,9 +1923,9 @@ a {
 }
 
 .site-nav {
-    padding-top: 21px;
-    padding-bottom: 20px;
-    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.507);
     overflow: hidden;
 }
 
@@ -2506,7 +2506,7 @@ a {
 
 .feature .text .heading {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 100;
     color: #000
 }
 
