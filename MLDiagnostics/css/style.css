@@ -264,7 +264,7 @@ a>code {
 
 img,
 svg {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 table {
@@ -1925,7 +1925,7 @@ a {
 .site-nav {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: rgba(0, 0, 0, 0.507);
+    background: rgba(0, 0, 0, 0.719);
     overflow: hidden;
 }
 
@@ -2985,3 +2985,13 @@ a {
     background: #0c1a87;
     color: #fff
 }
+
+.social {
+    display:flex;
+    width: 30px;
+    height: 30px;
+    background: #777;
+    border-radius: 50%;
+    color: #fff;
+    margin: 10px;
+}}
