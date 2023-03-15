@@ -2847,9 +2847,9 @@ a {
 }
 
 .site-footer {
-    background: #efefef;
+    background: #dadada;
     font-size: 14px;
-    color: #888;
+    color: #575757;
     padding: 70px 0
 }
 
@@ -2879,7 +2879,7 @@ a {
 }
 
 .site-footer .widget .links {
-    width: 150px
+    width: 300px
 }
 
 .site-footer .widget .links li {
