@@ -256,7 +256,7 @@ figure figcaption {
 }
 
 #colorlib-aside .colorlib-footer span {
-  display: block;
+  display: flex;
 }
 
 #colorlib-aside .colorlib-footer ul {
@@ -1628,5 +1628,5 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 li a i {
-  color: black;
+  color: rgb(255, 255, 255);
 }

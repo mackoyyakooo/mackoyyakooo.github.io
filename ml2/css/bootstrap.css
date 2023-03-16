@@ -194,6 +194,11 @@ pre {
     -ms-overflow-style: scrollbar
 }
 
+img.logo {
+    vertical-align: middle;
+    border-style: none;
+    width: 90px
+}
 img {
     vertical-align: middle;
     border-style: none
