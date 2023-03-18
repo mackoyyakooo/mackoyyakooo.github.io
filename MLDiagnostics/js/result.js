@@ -21,6 +21,6 @@ function result() {
 	if (definition==undefined) {
 		output.innerHTML='<hr>There is no information about this patient.<hr>';
 	} else {
-		output.innerHTML='<hr><a href="'+definition.link+'">Click here to view result</a><hr>';
+		output.innerHTML='<hr><a href="'+definition.link+'">Click here to view result</a><br><br><br>For the password of the file, kindly input your LASTNAME FIRSTNAME and your BIRTHDAY (mmddyyy) Ex. DELACRUZJUAN01011990. Thank you.<hr>'
 	};
 };
