@@ -3,9 +3,13 @@ function result() {
 
 	var patient= {
 
-		A : {
-			link: "https://drive.google.com/file/d/1-RvKSbjHXU7-81Z7nT9UvjV62YdUpgQZ/view?usp=share_link"
-		}
+		PAMUGASMARKALFRED07031997 : {
+			link: 'Results/Pamugas, Mark Alfred.pdf'
+		},
+
+		DELACRUZJUAN01012001 : {
+			link: 'Results/Pamugas, Mark Alfred.pdf'
+		},
 	}
 
 
@@ -17,6 +21,6 @@ function result() {
 	if (definition==undefined) {
 		output.innerHTML='<hr>There is no information about this patient.<hr>';
 	} else {
-		output.innerHTML='<hr><a href="'+definition.link+'">Link is '+definition.link+'</a><hr>';
+		output.innerHTML='<hr><a href="'+definition.link+'">Click here to view result</a><hr>';
 	};
 };
