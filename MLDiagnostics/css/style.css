@@ -2930,3 +2930,13 @@ a {
     border-radius: 50%;
     color: #fff;
 }
+
+search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+align-items: center;
+border-radius: 60px;
+padding: 10px 20px;
+}
