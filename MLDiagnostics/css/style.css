@@ -35,7 +35,7 @@
 
 * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion:no-preference) {
@@ -51,7 +51,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    background-color: #eee;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -2931,12 +2931,45 @@ a {
     color: #fff;
 }
 
-search-bar{
-    width: 100%;
-    max-width: 700px;
-    background: rgba(255, 255, 255, 0.5);
-    display: flex;
-align-items: center;
-border-radius: 60px;
-padding: 10px 20px;
-}
+.searchInputWrapper {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .searchInput {
+    width: 20rem;
+    height: 2rem;
+    padding: 0 1rem; 
+    border-radius: 2rem;
+    border: none;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  ::placeholder {
+    color: #a1a1a1;
+  }
+  
+  /* hide the placeholder text on focus */
+  :focus::placeholder {
+    text-indent: -999px
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .searchInputIcon {
+    position: absolute;
+    right: 0.8rem;
+    top: 0.5rem;
+    color: #a1a1a1;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .container:focus-within > 
+  .searchInputWrapper > .searchInputIcon {
+    right: 0.2rem;
+  }
