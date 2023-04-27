@@ -3,7 +3,7 @@ function result() {
 
 	var patient= {
 
-		PAMUGASMARKALFRED07031997 : {
+		PAMUGASMARKALFRED0703 : {
 			link: 'Results/Pamugas, Mark Alfred.pdf'
 		},
 
