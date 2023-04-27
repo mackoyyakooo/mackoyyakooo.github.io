@@ -10,6 +10,9 @@ function result() {
 		DELACRUZJUAN01012001 : {
 			link: 'Results/Pamugas, Mark Alfred.pdf'
 		},
+		ML-000001 : {
+			link: 'Results/Pamugas, Mark Alfred.pdf'
+		},
 	}
 
 
