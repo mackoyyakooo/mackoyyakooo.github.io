@@ -10,6 +10,9 @@ function result() {
         "ML-000001": {
             link: 'Results/Pamugas, Mark Alfred.pdf'
         },
+        "A": {
+            link: 'Results/PAMUGAS, MARK ALFRED/'
+        },
     }
 
     var patientname = document.getElementById('patientname').value;
