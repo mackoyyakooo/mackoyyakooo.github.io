@@ -4,7 +4,7 @@ function result() {
 	var patient= {
 
 		"PAMUGASMARKALFRED0703" : {
-			link: 'Results/'
+			link: 'Results/PAMUGAS, MARK ALFRED'
 		},
 
 		"DELACRUZJUAN01012001" : {
