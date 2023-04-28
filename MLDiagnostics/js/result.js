@@ -2,7 +2,7 @@ function result() {
     // Patient data
     var patient = {
         "PAMUGASMARKALFRED0703": {
-            link: 'Results/PAMUGAS, MARK ALFRED/' // <-- Modify this line to include the folder path or URL
+            link: 'Results/PAMUGAS, MARK ALFRED/'
         },
         "DELACRUZJUAN01012001": {
             link: 'Results/Pamugas, Mark Alfred.pdf'
