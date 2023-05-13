@@ -11,7 +11,7 @@ function result() {
             link: 'Results/Pamugas, Mark Alfred.pdf'
         },
         "A": {
-            link: 'Results/PAMUGAS, MARK ALFRED/'
+            link: 'Results/PAMUGAS, MARK ALFRED.rar'
         },
     }
 
