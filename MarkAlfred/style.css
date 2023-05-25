@@ -10,8 +10,8 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-    --accent-color: #F26649;
-    --secondary-color: #F5F3EB;
+    --accent-color: #2c4c64;
+    --secondary-color: #97a9ac;
     --dark-color: #241F21;
     --grey-color: #CECBC7;
     --body-text-color: #241F21;
@@ -240,7 +240,7 @@ section.hero {
 }
 
 img.hero-img {
-  border: 10px solid rgba(242, 102, 73, 0.2);
+  border: 10px solid #263739;
   
 }
 
@@ -501,7 +501,7 @@ article.blog-article {
 /* contact section  */
 
 .contact-list{
-  border: 1px solid #F26649;
+  border: 1px solid #6c8ca4;
   border-radius: 15px;
   width: 237px;
   height: 145px;
@@ -528,7 +528,7 @@ color: var(--body-text-color);
 @media only screen and (max-width: 900px) {
 
   .contact-list{
-    border: 1px solid #F26649;
+    border: 1px solid #6c8ca4;
     border-radius: 15px;
     width: 237px;
     height: 100px;
