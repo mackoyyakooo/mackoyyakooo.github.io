@@ -96,7 +96,7 @@ Version: 1.2
 
   p {
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--light-text-color);
+    color: #241F21;
     font-size: 16px;
   }
   a {
@@ -301,7 +301,7 @@ section#home {
 }
 
 .open-description{
-  color: var(--light-text-color);
+  color: #241F21;
 }
 
 /* testimonial section  */
