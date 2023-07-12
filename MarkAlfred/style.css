@@ -54,16 +54,21 @@ Version: 1.2
 
   h3, .h3 {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
  
   }
 
-  h4, .h4, h5, .h5, h6, .h6{
+  h4, .h4{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;  
 
   }
+  h5, .h5, h6, .h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;  
+    font-style: italic;
 
+  }
 
   @media only screen and (max-width: 580px) {
     h1, .h1{
