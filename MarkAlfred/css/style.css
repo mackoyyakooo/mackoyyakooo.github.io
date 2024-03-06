@@ -1269,3 +1269,9 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+.navbar-brand img {
+  width: 65px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  /* Additional styling */
+}
