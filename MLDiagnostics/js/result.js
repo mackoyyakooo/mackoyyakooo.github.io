@@ -4,7 +4,7 @@ function result() {
     for (var i = 1; i <= 1000; i++) {
         var id = "ML-" + i.toString().padStart(6, "0");
         patient[id] = {
-            link: 'Results/' + id + '.pdf'
+            link: 'Results/' + id
         };
     }
 
