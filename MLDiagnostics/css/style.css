@@ -1940,12 +1940,13 @@ a {
 }
 
 .site-nav .site-navigation .site-menu>li {
-    display: inline-block
+    display: inline-block;
+    align-items: center;
 }
 
 .site-nav .site-navigation .site-menu>li>a {
-    font-size: 14px;
-    padding: 17px 15px;
+    font-size: 20px;
+    padding: 25px 15px;
     display: inline-block;
     text-decoration: none !important;
     color: rgba(255, 255, 255, 0.7)
