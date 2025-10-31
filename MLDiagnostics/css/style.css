@@ -1932,7 +1932,7 @@ a {
 .site-nav h1 {
     margin: 0;
     padding: 0;
-    font-size: 24px
+    font-size: 15px
 }
 
 .site-nav .site-navigation .site-menu {
@@ -2936,42 +2936,41 @@ a {
     position: relative;
     padding-top: 200px;
     padding-bottom: 200px;
-  }
-  
-  .searchInput {
+}
+
+.searchInput {
     width: 20rem;
     height: 2rem;
-    padding: 0 1rem; 
+    padding: 0 1rem;
     border-radius: 2rem;
     border: none;
     transition: transform 0.1s ease-in-out;
     border: 1px solid;
-  }
-  
-  ::placeholder {
+}
+
+::placeholder {
     color: #a1a1a1;
-  }
-  
-  /* hide the placeholder text on focus */
-  :focus::placeholder {
+}
+
+/* hide the placeholder text on focus */
+:focus::placeholder {
     text-indent: -999px
-  }
-  
-  .searchInput:focus {
+}
+
+.searchInput:focus {
     outline: none;
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
-  }
-  
-  .searchInputIcon {
+}
+
+.searchInputIcon {
     position: absolute;
     right: 0.8rem;
     top: 0.5rem;
     color: #a1a1a1;
     transition: all 0.1s ease-in-out;
-  }
-  
-  .container:focus-within > 
-  .searchInputWrapper > .searchInputIcon {
+}
+
+.container:focus-within>.searchInputWrapper>.searchInputIcon {
     right: 0.2rem;
-  }
+}
